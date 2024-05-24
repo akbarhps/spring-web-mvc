@@ -1,4 +1,4 @@
-package com.charuniverse.springwebmvc.g_request_method.f_mock_bean;
+package com.charuniverse.springwebmvc.g_request_method;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
