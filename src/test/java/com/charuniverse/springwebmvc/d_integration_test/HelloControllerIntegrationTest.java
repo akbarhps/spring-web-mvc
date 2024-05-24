@@ -1,4 +1,4 @@
-package com.charuniverse.springwebmvc.d_integration_test.c_mock_mvc;
+package com.charuniverse.springwebmvc.d_integration_test;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
