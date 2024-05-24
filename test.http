@@ -15,7 +15,7 @@ Accept: application/json
   "address": {
     "street": "123 Main St",
     "city": "Springfield",
-    "state": "IL",
+    "country": "IL",
     "postalCode": "62701"
   },
   "socialMedias": [

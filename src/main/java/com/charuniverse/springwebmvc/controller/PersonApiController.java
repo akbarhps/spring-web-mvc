@@ -1,6 +1,7 @@
 package com.charuniverse.springwebmvc.controller;
 
 import com.charuniverse.springwebmvc.model.CreatePersonRequest;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -19,7 +20,7 @@ public class PersonApiController {
     )
     @ResponseBody
     @ResponseStatus(HttpStatus.OK)
-    public CreatePersonRequest createPerson(@RequestBody CreatePersonRequest request) {
+    public CreatePersonRequest createPerson(@RequestBody @Valid CreatePersonRequest request) {
         return request;
     }
 }
