@@ -1,0 +1,31 @@
+POST http://localhost:8080/api/person
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "John",
+  "middleName": "Pentil",
+  "lastName": "Doe",
+  "email": "jonpentil@gmail.com",
+  "phone": "1234567890",
+  "hobbies": [
+    "reading",
+    "swimming"
+  ],
+  "address": {
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "postalCode": "62701"
+  },
+  "socialMedias": [
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/johnpentil"
+    },
+    {
+      "name": "twitter",
+      "url": "https://www.twitter.com/johnpentil"
+    }
+  ]
+}
