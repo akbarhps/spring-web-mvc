@@ -1,4 +1,4 @@
-package com.charuniverse.springwebmvc.zc_argument_resolver.zb_interceptor;
+package com.charuniverse.springwebmvc.zc_argument_resolver;
 
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
