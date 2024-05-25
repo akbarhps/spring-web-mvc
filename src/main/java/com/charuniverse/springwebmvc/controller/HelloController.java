@@ -26,6 +26,10 @@ public class HelloController {
 
     @GetMapping(path = "/web/hello")
     public ModelAndView helloWorld(@RequestParam(name = "name", required = false) String name) {
+        if (name == null) {
+            return new ModelAndView("redirect:/web/hello?name=Guest");
+        }
+
         return new ModelAndView("hello", Map.of(
                 "title", "View menggunakan kumis",
                 "name", name
